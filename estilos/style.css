@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+/*
+verde: #49a09d
+lilás: #5f2c82
+*/
+
+:root {
+    --cor01: #49a09d;
+    --cor02: #5f2c82;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+html, body {
+    background: var(--cor02);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+main {
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+div#main-img {
+    background: url(../images/pattern.jpg) center center no-repeat fixed;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+form > p {
+    background-color: var(--cor02);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+form span {
+    font-size: ;
+}
+
+form input {
+    border: none;
+    background-color: var(--cor01);
+    margin: 0px 0px 10px 10px;
+}
