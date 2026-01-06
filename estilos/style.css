@@ -43,13 +43,11 @@ section.login {
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
-    text-align: center;
 }
 
 section h1 {
     text-align: center;
     font-size: 2em;
-    padding-top: 10px;
 }
 
 div#main-img {
@@ -61,20 +59,27 @@ div#main-img {
 }
 
 div#formulario {
+    padding: 10px;
     display: block;
+    text-align: center;
 }
 
-form > p {
+div#formulario > form > p {
     background-color: var(--cor02);
-    margin: 10px;
+    width: 270px;
+    margin: 10px auto;
     border-radius: 10px;
-    text-align: center;
 }
 
 form input {
     border: none;
     background-color: var(--cor01);
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 1em;
 }
+
 
 form button.entrar {
     font-weight: bold;
