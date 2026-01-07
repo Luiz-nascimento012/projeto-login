@@ -14,12 +14,19 @@
             <div id="main-img"></div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>que bom ter você de volta! conecte e fique junto conosco</p>
-                <form action="login.php" method="post">
-                    <p><label for="iemail"> <span class="material-icons">person</span><input type="email" name="email" id="iemail"></label></p>
-                    <p><label for="ipass"><span class="material-icons">key</span><input type="password" name="senha" id="ipass"></label></p>
+                <p>que bom ter você de volta! conecte e fique junto conosco para criar as novas funções do nosso novo site!</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="email" id="iemail" required placeholder="seu e-mail" autocomplete="email">
+                        <label for="iemail"></label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="senha" required minlength="5" maxlength="20" autocomplete="current-password">
+                        <label for="isenha"></label>
+                    </div>
                     <button class="entrar" type="submit">conectar</button>
-                    <br>
                     <button class="forget" type="submit">esqueceu a senha?</button>
                 </form>
             </div>

@@ -39,15 +39,12 @@ section.login {
 
     background-color: #ffffff;
     box-shadow: 3px 3px 7px #451f5ec1;
-    height: 500px;
+    height: 515px;
     width: 300px;
     border-radius: 20px;
     overflow: hidden;
-}
 
-section h1 {
-    text-align: center;
-    font-size: 2em;
+    transition: width 0.3s ease, height 0.3s ease;
 }
 
 div#main-img {
@@ -58,62 +55,79 @@ div#main-img {
 }
 
 div#formulario {
+    padding: 10px;
     display: block;
     text-align: center;
 }
 
-div#formulario > form > p {
+section.login h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section.login p {
+    font-size: 0.8em;
+}
+
+div#formulario > form > div.campo {
+    display: block;
+    width: 100%;
+    height: 40px;
+
     background-color: var(--cor02);
-    width: 270px;
-    margin: 10px auto;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+div#formulario > form > div.campo > input {
+    background-color: var(--cor01);
+    border: none;
+    padding: 6px;
     border-radius: 10px;
 }
 
-form input {
-    border: none;
+div#formulario > form > button.entrar {
+    display: block;
+    width: 100%;
+    height: 40px;
+
+    margin-bottom: 10px;
     background-color: var(--cor01);
     color: white;
-    padding: 2px;
-    border-radius: 5px;
-    font-size: 1em;
-}
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.537);
 
-
-form button.entrar {
     font-weight: bold;
     font-size: 1.2em;
-    background-color: var(--cor01);
-    width: 270px;
-    height: 40px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.537);
 }
 
-form button.entrar:hover {
+div#formulario > form > button.entrar:hover {
     cursor: pointer;
     background-color: #53b1ae;
     transition: 0.1s ease;
 }
 
 
-form button.forget {
+div#formulario > form > button.forget {
+    display: block;
+    width: 100%;
+    height: 40px;
+
+    background-color: white;
+    color: var(--cor01);
+    border: 2px solid var(--cor01);
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.537);
+
     font-weight: bold;
     font-size: 1.2em;
-    background-color: white;
-    width: 270px;
-    height: 40px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 10px;
-    color: black;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.537);
 }
 
-form button.forget:hover {
+div#formulario > form > button.forget:hover {
     cursor: pointer;
-    background-color: rgb(240, 238, 238);
+    background-color: var(--cor01);
+    color: white;
     transition: 0.1s ease;
 }
