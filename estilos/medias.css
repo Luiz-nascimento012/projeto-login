@@ -1,6 +1,17 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+
+:root {
+    --cor01: #49a09d;
+    --cor02: #5f2c82;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1535px) {
+
+    body {
+        background: linear-gradient(to bottom, #49a09d, #5f2c82);
+    }
+
     section.login {
         width: 90vw;
     }
@@ -15,5 +26,9 @@
         float: right;
         width: 70%;
     }
+    
+}
+
+@media screen and () {
     
 }
