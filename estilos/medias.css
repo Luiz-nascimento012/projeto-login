@@ -29,20 +29,20 @@
     }
 
     div#formulario > form > div.campo {
-        width: 50%;
+        width: 60%;
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
     div#formulario > form > button.entrar {
-        width: 50%;
+        width: 60%;
         margin: auto;
         margin-bottom: 10px;
     }
 
     div#formulario > form > button.forget {
-        width: 50%;
+        width: 60%;
         margin: auto;
     }
     
@@ -78,20 +78,20 @@
     }
 
     div#formulario > form > div.campo {
-        width: 50%;
+        width: 60%;
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
     div#formulario > form > button.entrar {
-        width: 50%;
+        width: 60%;
         margin: auto;
         margin-bottom: 10px;
     }
 
     div#formulario > form > button.forget {
-        width: 50%;
+        width: 60%;
         margin: auto;
     }
     
