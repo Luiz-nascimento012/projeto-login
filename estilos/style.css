@@ -83,9 +83,6 @@ div#formulario > form > div.campo > span {
     padding: 5px;
 }
 
-
-
-
 div#formulario > form > div.campo > input {
     background-color: var(--cor01);
     height: 100%;
